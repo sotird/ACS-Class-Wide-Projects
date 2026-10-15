@@ -1,9 +1,0 @@
-state,wl,p50,p99,iops
-fresh,4K rand write,35.584,148.48,26222.538873
-fresh,4K rand read,91.648,111.104,10864.656767
-after 150 s seq write,4K rand write,35.584,148.48,26257.987101
-after 150 s seq write,4K rand read,91.648,111.104,10857.057147
-after 120 s rand write,4K rand write,35.584,148.48,26218.889056
-after 120 s rand write,4K rand read,91.648,111.104,10838.20809
-after 120 s idle,4K rand write,36.096,148.48,25838.40808
-after 120 s idle,4K rand read,91.648,110.08,10798.010099

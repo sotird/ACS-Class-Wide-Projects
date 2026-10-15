@@ -1,0 +1,5 @@
+# Wall-clock windows (Unix epoch seconds) during which concurrent work on the host (hardware-counter validation for
+# Projects 1/2: ETW tracing, compiles, 1 GiB pointer chases) may have perturbed the SSD benchmark.
+# Jobs overlapping these windows were deleted and re-run after the campaign (see scripts/rerun_perturbed.py).
+1791733300 1791733805
+1791733805 1791733969

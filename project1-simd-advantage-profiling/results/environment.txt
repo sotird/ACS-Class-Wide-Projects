@@ -1,0 +1,23 @@
+﻿captured: 2026-10-10 14:34:53
+cpu: AMD Ryzen 9 9950X 16-Core Processor
+cores/threads: 16/32  (SMT ENABLED)
+windows-reported base clock (MHz): 4300   [NOT the sustained boost clock -- see measured clock]
+L2 total (KB): 16384   L3 total (KB): 65536
+dimm: F5-6000J3636F16G 16GB configured 6000 MT/s
+dimm: F5-6000J3636F16G 16GB configured 6000 MT/s
+os: Microsoft Windows 11 Home 10.0.26200 build 26200
+power plan: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c  (High performance)
+  PERFBOOSTMODE: not exposed by this power scheme
+  PROCTHROTTLEMIN: Current AC Power Setting Index: 0x00000064
+  PROCTHROTTLEMAX: Current AC Power Setting Index: 0x00000064
+admin: False
+g++: g++.exe (Rev3, Built by MSYS2 project) 16.2.0
+python: Python 3.12.10
+measured sustained clock on pinned CPU (GHz, dependent-add chain, 5 samples): 5.622, 5.628, 5.624, 5.562, 5.624
+background CPU load before run (avg of 5 x 1s, %): 2.21
+top background processes by CPU time:
+  NordVPN  cpu=28715.8s
+  Discord  cpu=1675.5s
+  Malwarebytes  cpu=403.7s
+  explorer  cpu=251.7s
+  Discord  cpu=199.2s

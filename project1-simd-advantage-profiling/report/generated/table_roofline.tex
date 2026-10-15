@@ -1,0 +1,28 @@
+\begin{tabular}{llllrrrrrr}
+\toprule
+kernel & level & build & roof says & intensity & achieved & roof & \% of roof & true traffic & \% of level bandwidth \\
+ & & & & FLOP/B & GFLOP/s & GFLOP/s & & GiB/s & \\
+\midrule
+saxpy & L2 & scalar & compute & 0.167 & 10.3 & 22.3 & 46\% & 57.6 & 13\% \\
+saxpy & L2 & avx512 & memory & 0.167 & 61.8 & 77.4 & 80\% & 345.5 & 80\% \\
+saxpy & DRAM & scalar & memory & 0.167 & 8.8 & 10.2 & 86\% & 49.2 & 86\% \\
+saxpy & DRAM & avx512 & memory & 0.167 & 10.3 & 10.2 & 101\% & 57.5 & 101\% \\
+\addlinespace
+dot & L2 & scalar & compute & 0.250 & 5.5 & 22.3 & 25\% & 20.6 & 5\% \\
+dot & L2 & avx512 & memory & 0.250 & 5.3 & 116.0 & 5\% & 19.6 & 5\% \\
+dot & L2 & avx512\_fm & memory & 0.250 & 62.9 & 116.0 & 54\% & 234.4 & 54\% \\
+dot & DRAM & scalar & memory & 0.250 & 5.5 & 15.3 & 36\% & 20.3 & 36\% \\
+dot & DRAM & avx512 & memory & 0.250 & 5.4 & 15.3 & 35\% & 20.0 & 35\% \\
+dot & DRAM & avx512\_fm & memory & 0.250 & 14.1 & 15.3 & 92\% & 52.5 & 92\% \\
+\addlinespace
+mul & L2 & scalar & compute & 0.083 & 5.1 & 22.3 & 23\% & 76.7 & 18\% \\
+mul & L2 & avx512 & memory & 0.083 & 21.4 & 38.7 & 55\% & 318.2 & 74\% \\
+mul & DRAM & scalar & memory & 0.083 & 3.7 & 5.1 & 71\% & 54.4 & 95\% \\
+mul & DRAM & avx512 & memory & 0.083 & 3.8 & 5.1 & 75\% & 57.2 & 100\% \\
+\addlinespace
+stencil & L2 & scalar & compute & 0.625 & 21.6 & 22.3 & 97\% & 48.3 & 11\% \\
+stencil & L2 & avx512 & memory & 0.625 & 83.0 & 290.1 & 29\% & 185.5 & 43\% \\
+stencil & DRAM & scalar & compute & 0.625 & 20.1 & 22.3 & 90\% & 44.8 & 78\% \\
+stencil & DRAM & avx512 & memory & 0.625 & 25.7 & 38.4 & 67\% & 57.4 & 100\% \\
+\bottomrule
+\end{tabular}

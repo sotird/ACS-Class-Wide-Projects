@@ -1,0 +1,14 @@
+﻿dot<uint32_t> (integer: associative, vectorizes with NO fast-math)
+symbol: _ZN7kernels3dotIjEET_PKS1_S3_y
+(only lines matching /vpaddd|vpmulld|zmm/; full dump omitted)
+
+140002880:	62 f1 7e 48 6f 04 02 	vmovdqu32 zmm0,ZMMWORD PTR [rdx+rax*1]
+140002887:	62 f2 7d 48 40 04 01 	vpmulld zmm0,zmm0,ZMMWORD PTR [rcx+rax*1]
+140002892:	62 f1 75 48 fe c8    	vpaddd zmm1,zmm1,zmm0
+1400028ca:	62 f1 7e c9 6f 14 81 	vmovdqu32 zmm2{k1}{z},ZMMWORD PTR [rcx+rax*4]
+1400028d1:	62 f1 7e c9 6f 04 82 	vmovdqu32 zmm0{k1}{z},ZMMWORD PTR [rdx+rax*4]
+1400028d8:	62 f2 7d 48 40 c2    	vpmulld zmm0,zmm0,zmm2
+1400028de:	62 f1 75 49 fe c8    	vpaddd zmm1{k1},zmm1,zmm0
+1400028e4:	62 f3 7d 48 3b c8 01 	vextracti32x8 ymm0,zmm1,0x1
+1400028eb:	c5 fd fe c1          	vpaddd ymm0,ymm0,ymm1
+1400028f6:	c5 f1 fe c0          	vpaddd xmm0,xmm1,xmm0

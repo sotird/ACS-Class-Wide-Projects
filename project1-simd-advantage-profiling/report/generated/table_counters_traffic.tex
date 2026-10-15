@@ -1,0 +1,10 @@
+\begin{tabular}{lrrrrr}
+\toprule
+kernel (f32, 384 MiB) & model: line reads (B/elem) & measured scalar & measured AVX-512 & DRAM share of fills & cycles/elem scalar $\rightarrow$ AVX-512 \\
+\midrule
+saxpy & 8 & 8.02 & 8.06 & 71\% & 1.22 $\rightarrow$ 1.06 \\
+mul & 12 & 12.04 & 12.14 & 90\% & 1.43 $\rightarrow$ 1.46 \\
+stencil & 8 & 8.02 & 8.03 & 60\% & 1.55 $\rightarrow$ 1.05 \\
+dot & 8 & 8.02 & 8.02 & 0\% & 2.02 $\rightarrow$ 2.07 \\
+\bottomrule
+\end{tabular}

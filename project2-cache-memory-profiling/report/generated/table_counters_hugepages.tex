@@ -1,0 +1,24 @@
+\begin{tabular}{rrlrrrrr}
+\toprule
+cache footprint & page slots & page size & ns/hop & cycles/hop & DTLB miss/hop & fills from L2 / L3 per hop & runs \\
+\midrule
+512 KiB & 128 & 2 MiB & 2.48 & 14.0 & 0.000 & 1.00 / 0.00 & 1 \\
+512 KiB & 128 & 4 KiB & 2.80 & 15.7 & 0.257 & 1.00 / 0.00 & 1 \\
+\addlinespace
+512 KiB & 2048 & 2 MiB & 2.54 & 14.3 & 0.000 & 1.00 / 0.00 & 1 \\
+512 KiB & 2048 & 4 KiB & 3.73 & 20.7 & 0.775 & 0.99 / 0.02 & 1 \\
+\addlinespace
+512 KiB & 8192 & 2 MiB & 2.51 & 15.3 & 0.003 & 1.00 / 0.00 & 1 \\
+512 KiB & 8192 & 4 KiB & 8.01 & 45.2 & 1.000 & 1.51 / 0.01 & 1 \\
+\addlinespace
+4096 KiB & 1024 & 2 MiB & 7.94 & 44.7 & 0.000 & 0.09 / 0.91 & 3 \\
+4096 KiB & 1024 & 4 KiB & 9.06 & 51.1 & 0.908 & 0.09 / 0.91 & 3 \\
+\addlinespace
+4096 KiB & 16384 & 2 MiB & 8.10 & 45.5 & 0.000 & 0.07 / 0.93 & 3 \\
+4096 KiB & 16384 & 4 KiB & 12.60 & 71.3 & 0.987 & 0.48 / 0.96 & 3 \\
+\addlinespace
+4096 KiB & 65536 & 2 MiB & 8.82 & 49.7 & 0.251 & 0.00 / 1.00 & 3 \\
+4096 KiB & 65536 & 4 KiB & 17.10 & 96.4 & 0.997 & 0.50 / 1.31 & 3 \\
+\addlinespace
+\bottomrule
+\end{tabular}

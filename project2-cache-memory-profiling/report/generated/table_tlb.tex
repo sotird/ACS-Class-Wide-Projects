@@ -1,0 +1,11 @@
+\begin{tabular}{rrrrrrrr}
+\toprule
+ & & \multicolumn{3}{c}{4\,KiB pages} & \multicolumn{3}{c}{2\,MiB pages} \\
+\cmidrule(lr){3-5}\cmidrule(lr){6-8}
+cache footprint & pages ($P$) range & ns, fewest & ns, most & penalty & ns, fewest & ns, most & penalty \\
+\midrule
+32 KiB & 8--512 & 0.71 & 1.27 & +0.56 & 0.71 & 0.74 & +0.03 \\
+512 KiB & 128--8192 & 2.51 & 3.95 & +1.44 & 2.51 & 2.56 & +0.06 \\
+4 MiB & 1024--65536 & 8.86 & 17.86 & +9.00 & 8.05 & 9.73 & +1.68 \\
+\bottomrule
+\end{tabular}

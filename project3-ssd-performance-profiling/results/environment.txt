@@ -1,0 +1,19 @@
+﻿captured: 2026-10-11 11:21:47
+host cpu: AMD Ryzen 9 9950X 16-Core Processor (16C/32T)
+os: Microsoft Windows 11 Home 10.0.26200 build 26200   RAM: 31.1 GiB
+power plan: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c  (High performance)
+ssd: CT1000MX500SSD1  interface: SATA  media: SSD  firmware: M3CR043  health: Healthy
+ssd capacity: 931.5 GB; sector sizes logical/physical: 512/512
+test partition T: size 1659 MiB, offset 998463504384 bytes (offset mod 4096 = 0, mod 1MiB = 0)
+other partitions on the same disk (NEVER opened by the benchmark): G: 930GB
+volume T: label 'Testing' NTFS, size 1659 MiB, free 1643.6 MiB
+ntfs cluster size: 4096 bytes   indexing: True   compressed: False
+device cache: IsDeviceCacheEnabled=True IsPowerProtected=False
+temperature: 33 C  wear: 0  power-on hours: 21512
+windows defender real-time protection: True
+security/other background software running: Malwarebytes, MsMpEng, NordVPN, nordvpn-service
+fio: fio-3.43  (C:\Users\User\AppData\Local\Programs\fio-extracted\fio\fio.exe)
+python: Python 3.12.10
+g++: g++.exe (Rev3, Built by MSYS2 project) 16.2.0
+admin rights: True
+background activity on the SSD before the run (10 x 1s): 0 transfers/s, 0 KiB/s

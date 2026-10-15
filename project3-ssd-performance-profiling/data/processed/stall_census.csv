@@ -1,0 +1,22 @@
+job,dir,iops,p50_us,p99_us,lat_max_us
+s10_readstab / a_sustained_600s / t0,read,82856.811905,346.112,634.88,6369775.865
+s12_readcount / randread4k_qd32_range256m_240s / t0,read,86449.281461,321.536,634.88,1925167.409
+s12_readcount / randread4k_qd32_range64m_240s / t0,read,86640.705664,321.536,634.88,1845601.534
+s12_readcount / randread4k_qd32_range16m_300s_rest600s / t0,read,88898.477005,321.536,618.496,1844922.675
+s12_readcount / randread4k_qd32_range16m_240s / t0,read,87430.260707,321.536,618.496,1797053.726
+s11_cliff / a_randwrite4k_sustained_1200s / t0,write,77618.296151,374.784,403.456,1646021.619
+s11_cliff / c_randwrite4k_after_rest600s_600s / t0,write,72477.445871,370.688,423.936,1137469.986
+s4_qd / seqwrite128k_qd4 / t2,write,46.869141,1011.712,994050.048,991627.964
+s9_state / d_sustained_randwrite4k_qd32 / t0,write,76297.884504,374.784,399.36,830276.896
+s4_qd / seqwrite128k_qd1 / t1,write,96.862892,284.672,362807.296,821339.152
+s12_readcount / randread4k_qd4_range16m_600s / t0,read,32997.215005,102.912,238.592,820657.726
+s10_readstab / b_after_rest300s_600s / t0,read,67211.98298,452.608,684.032,747232.133
+s4_qd / seqwrite128k_qd1 / t2,write,553.555806,280.576,399.36,555982.934
+s9_state / b_sustained_seqwrite128k_qd32 / t0,write,3848.97912,8159.232,10813.44,521675.289
+s12_readcount / randread4k_qd32_range1024m_240s / t0,read,98836.842346,317.44,481.28,513133.626
+s11_cliff / b_seqwrite128k_right_after_240s / t0,write,3863.321792,8093.696,8224.768,512941.183
+s12_readcount / randread4k_qd32_range16m_120s_rest600s / t0,read,97848.241857,321.536,448.512,504683.042
+s4_qd / seqwrite128k_qd1 / t0,write,91.947115,288.768,375390.208,459082.445
+s2_bs / seqwrite_bs32k_qd32 / t0,write,14321.006164,2113.536,2211.84,233953.987
+s2_bs / randwrite_bs256k_qd1 / t1,write,1713.547742,536.576,667.648,155575.871
+s2_bs / seqwrite_bs128k_qd1 / t2,write,3143.642726,288.768,395.264,132762.116

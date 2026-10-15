@@ -1,0 +1,20 @@
+\begin{tabular}{lrrrr}
+\toprule
+job (stage / configuration / trial) & IOPS & p50 $\mu$s & p99 $\mu$s & max ms \\
+\midrule
+s10\_readstab / a\_sustained\_600s / t0 & 82,857 & 346 & 635 & 6370 \\
+s12\_readcount / randread4k\_qd32\_range256m\_240s / t0 & 86,449 & 322 & 635 & 1925 \\
+s12\_readcount / randread4k\_qd32\_range64m\_240s / t0 & 86,641 & 322 & 635 & 1846 \\
+s12\_readcount / randread4k\_qd32\_range16m\_300s\_rest600s / t0 & 88,898 & 322 & 618 & 1845 \\
+s12\_readcount / randread4k\_qd32\_range16m\_240s / t0 & 87,430 & 322 & 618 & 1797 \\
+s11\_cliff / a\_randwrite4k\_sustained\_1200s / t0 & 77,618 & 375 & 403 & 1646 \\
+s11\_cliff / c\_randwrite4k\_after\_rest600s\_600s / t0 & 72,477 & 371 & 424 & 1137 \\
+s4\_qd / seqwrite128k\_qd4 / t2 & 47 & 1012 & 994,050 & 992 \\
+s9\_state / d\_sustained\_randwrite4k\_qd32 / t0 & 76,298 & 375 & 399 & 830 \\
+s4\_qd / seqwrite128k\_qd1 / t1 & 97 & 285 & 362,807 & 821 \\
+s12\_readcount / randread4k\_qd4\_range16m\_600s / t0 & 32,997 & 103 & 239 & 821 \\
+s10\_readstab / b\_after\_rest300s\_600s / t0 & 67,212 & 453 & 684 & 747 \\
+s4\_qd / seqwrite128k\_qd1 / t2 & 554 & 281 & 399 & 556 \\
+s9\_state / b\_sustained\_seqwrite128k\_qd32 / t0 & 3,849 & 8159 & 10,813 & 522 \\
+\bottomrule
+\end{tabular}

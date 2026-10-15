@@ -1,0 +1,14 @@
+﻿mul_gather<float>, -mtune-ctrl=use_gather (gcc emits vgatherdps only when told to)
+symbol: _ZN7kernels10mul_gatherIfEEvPT_PKS1_S4_PKiy
+(only lines matching /vgather|vpgather|vmulps|zmm/; full dump omitted)
+
+140001fc0:	62 d1 7e 48 6f 1c 01 	vmovdqu32 zmm3,ZMMWORD PTR [r9+rax*1]
+140001fcf:	62 d2 7d 4a 92 04 9a 	vgatherdps zmm0{k2},DWORD PTR [r10+zmm3*4]
+140001fd6:	62 d2 7d 4b 92 0c 98 	vgatherdps zmm1{k3},DWORD PTR [r8+zmm3*4]
+140001fdd:	62 f1 7c 48 59 c1    	vmulps zmm0,zmm0,zmm1
+140001fe3:	62 f1 7c 48 11 04 01 	vmovups ZMMWORD PTR [rcx+rax*1],zmm0
+140002020:	62 d1 7e c9 6f 0c 81 	vmovdqu32 zmm1{k1}{z},ZMMWORD PTR [r9+rax*4]
+14000202b:	62 f1 7c 48 28 d0    	vmovaps zmm2,zmm0
+140002039:	62 d2 7d 4c 92 14 8a 	vgatherdps zmm2{k4},DWORD PTR [r10+zmm1*4]
+140002040:	62 d2 7d 4d 92 04 88 	vgatherdps zmm0{k5},DWORD PTR [r8+zmm1*4]
+140002047:	62 f1 6c c9 59 c8    	vmulps zmm1{k1}{z},zmm2,zmm0

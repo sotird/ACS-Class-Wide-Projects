@@ -1,0 +1,22 @@
+setup,iops,p50,p99
+"randread QD1
+direct",10870.516185,91.648,111.104
+"randread QD1
+buffered",114680.5,7.904,17.28
+"randread QD32
+direct",99164.104487,313.344,509.952
+"randread QD32
+buffered",252229.721285,66.048,136.192
+"sync engine
+'iodepth=32'
+(buffered)",349282.214723,2.024,8.64
+"sync engine
+32 jobs
+(buffered)",322936.273897,61.696,561.152
+"windowsaio
+32 jobs x QD1
+(direct)",99156.335916,313.344,514.048
+"randwrite QD1
+direct",26223.972003,35.584,148.48
+"randwrite QD1
+buffered",111937.507812,8.256,16.064

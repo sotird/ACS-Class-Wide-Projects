@@ -1,0 +1,17 @@
+mode,ops,seconds,iops,mean_us,p50_us,p90_us,p95_us,p99_us,p999_us,max_us
+randread4k_direct,109264,10,10926.4,91.4836,91.6,93.3,96.6,109.1,163.6,5088
+mode,ops,seconds,iops,mean_us,p50_us,p90_us,p95_us,p99_us,p999_us,max_us
+randwrite4k_direct,277734,10,27773.4,35.9748,33.2,34.4,36.7,152.5,165.4,126422
+mode,ops,seconds,iops,mean_us,p50_us,p90_us,p95_us,p99_us,p999_us,max_us
+randwrite4k_wt,282736,10,28273.6,35.3375,33.1,34.3,36.7,152.2,166,25055.8
+mode,ops,seconds,iops,mean_us,p50_us,p90_us,p95_us,p99_us,p999_us,max_us
+seqread128k_direct,14110,10,1411,708.684,692.8,813.4,861.7,975.6,1162.4,7164.1
+mode,ops,seconds,iops,mean_us,p50_us,p90_us,p95_us,p99_us,p999_us,max_us
+seqwrite128k_direct,34233,10,3423.3,292.082,273.2,337.7,377.4,396.3,418.9,31268.8
+mode,ops,seconds,iops,mean_us,p50_us,p90_us,p95_us,p99_us,p999_us,max_us
+randread4k_buffered,138028,10,13802.8,72.4242,92.2,98,103.4,121.2,167.9,2921.7
+mode,ops,seconds,iops,mean_us,p50_us,p90_us,p95_us,p99_us,p999_us,max_us
+randwrite4k_buffered,3014966,10,301497,3.29274,2.7,5.3,6.6,9.2,12.5,745.7
+mode,ops,seconds,iops,mean_us,p50_us,p90_us,p95_us,p99_us,p999_us,max_us
+vdl_unwritten_file,5846037,8,730755,1.34492,1.3,1.4,1.4,1.5,2,46.1
+vdl_written_file,82762,8,10345.2,96.6254,91.8,93.2,96.3,107.3,2985.1,4984.5

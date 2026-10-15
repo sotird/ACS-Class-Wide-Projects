@@ -1,0 +1,275 @@
+C:/msys64/mingw64/include/c++/16.2.0/bits/char_traits.h:396:25: missed: statement clobbers memory: _4 = __builtin_strlen (__s_3(D));
+C:/msys64/mingw64/include/c++/16.2.0/bits/basic_string.tcc:235:13: missed: statement clobbers memory: _12 = std::__cxx11::basic_string<char>::_M_create (this_1(D), &__dnew, 0);
+C:/msys64/mingw64/include/c++/16.2.0/bits/char_traits.h:432:49: missed: statement clobbers memory: __builtin_memcpy (_9, __s_3(D), _4);
+C:/msys64/mingw64/include/c++/16.2.0/bits/basic_string.h:735:28: missed: statement clobbers memory: std::__throw_logic_error ("basic_string: construction from null is not valid");
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\common.hpp:85:30: missed: couldn't vectorize loop
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\common.hpp:85:30: missed: not vectorized: loop nest containing two or more consecutive inner loops cannot be vectorized
+C:/msys64/mingw64/include/c++/16.2.0/bits/random.tcc:3558:4: missed: couldn't vectorize loop
+C:/msys64/mingw64/include/c++/16.2.0/bits/random.tcc:3558:4: missed: not vectorized: loop nest containing two or more consecutive inner loops cannot be vectorized
+C:/msys64/mingw64/include/c++/16.2.0/bits/random.tcc:333:32: missed: couldn't vectorize loop
+C:/msys64/mingw64/include/c++/16.2.0/bits/random.tcc:335:14: missed: not vectorized: no vectype for stmt: __x_16 = MEM[(struct mersenne_twister_engine *)&rng]._M_x[_15];
+ scalar_type: long long unsigned int
+C:/msys64/mingw64/include/c++/16.2.0/bits/random.tcc:414:14: missed: not vectorized: vectorization is not profitable.
+C:/msys64/mingw64/include/c++/16.2.0/bits/random.tcc:420:17: missed: not vectorized: vectorization is not profitable.
+C:/msys64/mingw64/include/c++/16.2.0/bits/random.tcc:414:14: missed: not vectorized: vectorization is not profitable.
+C:/msys64/mingw64/include/c++/16.2.0/bits/random.tcc:420:17: missed: not vectorized: vectorization is not profitable.
+C:/msys64/mingw64/include/c++/16.2.0/bits/random.tcc:414:14: missed: not vectorized: vectorization is not profitable.
+C:/msys64/mingw64/include/c++/16.2.0/bits/random.tcc:420:17: missed: not vectorized: vectorization is not profitable.
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:162:68: missed: statement clobbers memory: _38 = operator new (_37);
+C:/msys64/mingw64/include/c++/16.2.0/bits/stl_uninitialized.h:1394:20: missed: statement clobbers memory: __builtin_memcpy (_38, _9, _1);
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:183:59: missed: statement clobbers memory: operator delete (_9, _25);
+C:/msys64/mingw64/include/c++/16.2.0/bits/stl_vector.h:2195:24: missed: statement clobbers memory: std::__throw_length_error ("vector::_M_realloc_append");
+C:/msys64/mingw64/include/c++/16.2.0/bits/vector.tcc:653:30: missed: not vectorized: vectorization is not profitable.
+C:/msys64/mingw64/include/c++/16.2.0/bits/vector.tcc:653:30: missed: not vectorized: vectorization is not profitable.
+C:/msys64/mingw64/include/c++/16.2.0/bits/vector.tcc:653:30: missed: not vectorized: vectorization is not profitable.
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\exp8_negative_novec.cpp:48:21: missed: couldn't vectorize loop
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\exp8_negative_novec.cpp:48:21: missed: not vectorized: loop nest containing two or more consecutive inner loops cannot be vectorized
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\exp8_negative_novec.cpp:57:27: missed: couldn't vectorize loop
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\exp8_negative_novec.cpp:57:27: missed: not vectorized: Infinite loop detected.
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\common.hpp:100:23: missed: couldn't vectorize loop
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\common.hpp:100:23: missed: not vectorized: Infinite loop detected.
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\common.hpp:106:39: missed: couldn't vectorize loop
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\common.hpp:106:39: missed: not vectorized: unsupported control flow in loop.
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\common.hpp:104:31: missed: couldn't vectorize loop
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\exp8_negative_novec.cpp:26:41: missed: not vectorized: complicated access pattern.
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\exp8_negative_novec.cpp:55:27: missed: couldn't vectorize loop
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\exp8_negative_novec.cpp:55:27: missed: not vectorized: Infinite loop detected.
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\common.hpp:100:23: missed: couldn't vectorize loop
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\common.hpp:100:23: missed: not vectorized: Infinite loop detected.
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\common.hpp:106:39: missed: couldn't vectorize loop
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\common.hpp:106:39: missed: not vectorized: Infinite loop detected.
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\common.hpp:104:31: missed: couldn't vectorize loop
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\common.hpp:104:31: missed: not vectorized: Infinite loop detected.
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\exp8_negative_novec.cpp:23:26: missed: couldn't vectorize loop
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\exp8_negative_novec.cpp:23:26: missed: not vectorized: Infinite loop detected.
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\exp8_negative_novec.cpp:46:33: missed: couldn't vectorize loop
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\exp8_negative_novec.cpp:46:33: missed: not vectorized: Infinite loop detected.
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\exp8_negative_novec.cpp:34:52: missed: couldn't vectorize loop
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\exp8_negative_novec.cpp:34:52: missed: not vectorized: loop nest containing two or more consecutive inner loops cannot be vectorized
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\exp8_negative_novec.cpp:39:30: missed: couldn't vectorize loop
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\exp8_negative_novec.cpp:40:26: missed: not vectorized: no vectype for stmt: _4 = *_169;
+ scalar_type: value_type
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\exp8_negative_novec.cpp:23:26: missed: couldn't vectorize loop
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\exp8_negative_novec.cpp:23:26: missed: not vectorized: Infinite loop detected.
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\exp8_negative_novec.cpp:29:5: missed: splitting region at control altering definition _345 = operator new (_488);
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\exp8_negative_novec.cpp:36:20: missed: statement clobbers memory: bench::fill_random<float> (0B, n_122, 61);
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:162:68: missed: statement clobbers memory: _328 = operator new (_327);
+C:/msys64/mingw64/include/c++/16.2.0/bits/stl_algobase.h:923:11: missed: statement clobbers memory: __builtin_memset (__first_329, 0, _220);
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:162:68: missed: not vectorized: statement can throw an exception: _345 = operator new (_488);
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:162:68: missed: splitting region at control altering definition _366 = operator new (_488);
+C:/msys64/mingw64/include/c++/16.2.0/bits/stl_algobase.h:923:11: missed: statement clobbers memory: __builtin_memset (__first_346, 0, _697);
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:162:68: missed: not vectorized: statement can throw an exception: _366 = operator new (_488);
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:162:68: missed: splitting region at control altering definition _148 = black_box (_150);
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\exp8_negative_novec.cpp:36:20: missed: statement clobbers memory: bench::fill_random<float> (_328, n_122, 61);
+C:/msys64/mingw64/include/c++/16.2.0/bits/stl_algobase.h:923:11: missed: statement clobbers memory: __builtin_memset (__first_367, 0, _397);
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\exp8_negative_novec.cpp:36:20: missed: statement clobbers memory: bench::fill_random<float> (_328, n_122, 61);
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\exp8_negative_novec.cpp:36:20: missed: statement clobbers memory: bench::fill_random<float> (_328, 1, 61);
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\exp8_negative_novec.cpp:23:52: missed: not vectorized: statement can throw an exception: _148 = black_box (_150);
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\exp8_negative_novec.cpp:23:52: missed: splitting region at loop 7 exit at bb239
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\exp8_negative_novec.cpp:23:26: missed: splitting region at dominance boundary bb27
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\exp8_negative_novec.cpp:39:30: missed: splitting region at dominance boundary bb209
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:183:59: missed: statement clobbers memory: operator delete (_459, _264);
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:183:59: missed: statement clobbers memory: operator delete (_359, _264);
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:183:59: missed: statement clobbers memory: operator delete (_73, _264);
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\exp8_negative_novec.cpp:34:52: missed: splitting region at dominance boundary bb206
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\exp8_negative_novec.cpp:34:52: missed: splitting region at dominance boundary bb203
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\exp8_negative_novec.cpp:34:52: missed: splitting region at dominance boundary bb34
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\exp8_negative_novec.cpp:34:52: missed: splitting region at control altering definition _412 = std::basic_filebuf<char>::open (&MEM[(struct basic_ofstream *)&csv]._M_filebuf, _395, 16);
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\common.hpp:36:36: missed: statement clobbers memory: e_376 = getenv ("BENCH_CPU");
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\common.hpp:36:66: missed: statement clobbers memory: cpu_377 = atoi (e_376);
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\common.hpp:37:21: missed: statement clobbers memory: _378 = GetCurrentProcess ();
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\common.hpp:37:21: missed: statement clobbers memory: SetPriorityClass (_378, 128);
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\common.hpp:38:26: missed: statement clobbers memory: _381 = GetCurrentThread ();
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\common.hpp:38:26: missed: statement clobbers memory: SetThreadAffinityMask (_381, _380);
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\common.hpp:39:22: missed: statement clobbers memory: _382 = GetCurrentThread ();
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\common.hpp:39:22: missed: statement clobbers memory: SetThreadPriority (_382, 2);
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\common.hpp:40:10: missed: statement clobbers memory: Sleep (50);
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\exp8_negative_novec.cpp:44:28: missed: statement clobbers memory: std::__cxx11::basic_string<char>::__ct_comp .isra (&D.155977, "variant,build,n,rep,seconds,gflops");
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\exp8_negative_novec.cpp:44:25: missed: not vectorized: statement can throw an exception: std::__cxx11::basic_string<char>::__ct_comp .isra (&D.155975, _10);
+C:/msys64/mingw64/include/c++/16.2.0/bits/basic_ios.h:478:59: missed: statement clobbers memory: std::ios_base::ios_base (&MEM[(struct basic_ios *)&csv + 200B].D.145780);
+C:/msys64/mingw64/include/c++/16.2.0/bits/ostream.h:441:19: missed: not vectorized: statement can throw an exception: std::basic_ios<char>::init (_401, 0B);
+C:/msys64/mingw64/include/c++/16.2.0/fstream:834:43: missed: not vectorized: statement can throw an exception: std::basic_filebuf<char>::basic_filebuf (&MEM[(struct basic_ofstream *)&csv]._M_filebuf);
+C:/msys64/mingw64/include/c++/16.2.0/fstream:835:19: missed: not vectorized: statement can throw an exception: std::basic_ios<char>::init (&MEM <struct ofstream> [(void *)&csv + 200B], &MEM[(struct basic_ofstream *)&csv]._M_filebuf.D.152633);
+C:/msys64/mingw64/include/c++/16.2.0/fstream:835:34: missed: statement clobbers memory: std::basic_filebuf<char>::~basic_filebuf (&MEM[(struct basic_ofstream *)&csv]._M_filebuf);
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\exp8_negative_novec.cpp:29:5: missed: not vectorized: statement can throw an exception: resx 74
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\exp8_negative_novec.cpp:29:5: missed: not vectorized: statement can throw an exception: resx 73
+C:/msys64/mingw64/include/c++/16.2.0/bits/basic_ios.h:297:22: missed: statement clobbers memory: std::ios_base::~ios_base (&MEM[(struct basic_ios *)&csv + 200B].D.145780);
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\exp8_negative_novec.cpp:29:5: missed: not vectorized: statement can throw an exception: resx 72
+C:/msys64/mingw64/include/c++/16.2.0/fstream:345:20: missed: not vectorized: statement can throw an exception: _412 = std::basic_filebuf<char>::open (&MEM[(struct basic_ofstream *)&csv]._M_filebuf, _395, 16);
+C:/msys64/mingw64/include/c++/16.2.0/bits/basic_ios.h:478:2: missed: splitting region at dominance boundary bb48
+C:/msys64/mingw64/include/c++/16.2.0/bits/basic_ios.h:478:2: missed: splitting region at control altering definition _394 = std::__ostream_insert<char, std::char_traits<char> > (&csv.f_.D.153039, _393, _392);
+C:/msys64/mingw64/include/c++/16.2.0/fstream:1025:15: missed: not vectorized: statement can throw an exception: std::basic_ios<char>::clear (_144, 0);
+C:/msys64/mingw64/include/c++/16.2.0/bits/basic_ios.h:168:20: missed: not vectorized: statement can throw an exception: std::basic_ios<char>::clear (_144, _422);
+C:/msys64/mingw64/include/c++/16.2.0/bits/basic_string.h:4427:30: missed: not vectorized: statement can throw an exception: _394 = std::__ostream_insert<char, std::char_traits<char> > (&csv.f_.D.153039, _393, _392);
+C:/msys64/mingw64/include/c++/16.2.0/bits/basic_string.h:4427:30: missed: splitting region at dominance boundary bb66
+C:/msys64/mingw64/include/c++/16.2.0/bits/basic_string.h:4427:30: missed: splitting region at control altering definition _449 = operator new (_448);
+C:/msys64/mingw64/include/c++/16.2.0/bits/ostream.h:739:18: missed: not vectorized: statement can throw an exception: std::__ostream_insert<char, std::char_traits<char> > (_394, "\n", 1);
+C:/msys64/mingw64/include/c++/16.2.0/bits/basic_string.h:920:19: missed: statement clobbers memory: std::__cxx11::basic_string<char>::_M_dispose (&D.155975);
+C:/msys64/mingw64/include/c++/16.2.0/bits/basic_string.h:920:19: missed: statement clobbers memory: std::__cxx11::basic_string<char>::_M_dispose (&D.155977);
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:162:68: missed: not vectorized: statement can throw an exception: _449 = operator new (_448);
+C:/msys64/mingw64/include/c++/16.2.0/bits/stl_vector.h:2197:18: missed: splitting region at dominance boundary bb73
+C:/msys64/mingw64/include/c++/16.2.0/bits/stl_uninitialized.h:1394:20: missed: statement clobbers memory: __builtin_memcpy (_449, sizes$_M_start_262, _435);
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:183:59: missed: statement clobbers memory: operator delete (sizes$_M_start_262, _442);
+C:/msys64/mingw64/include/c++/16.2.0/bits/vector.tcc:655:53: missed: splitting region at dominance boundary bb84
+C:/msys64/mingw64/include/c++/16.2.0/bits/stl_vector.h:1413:6: missed: splitting region at dominance boundary bb78
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\exp8_negative_novec.cpp:46:33: missed: splitting region at dominance boundary bb76
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\exp8_negative_novec.cpp:46:33: missed: splitting region at dominance boundary bb85
+C:/msys64/mingw64/include/c++/16.2.0/bits/stl_vector.h:2195:24: missed: not vectorized: statement can throw an exception: std::__throw_length_error ("vector::_M_realloc_append");
+C:/msys64/mingw64/include/c++/16.2.0/bits/stl_vector.h:2195:24: missed: splitting region at control altering definition _453 = _aligned_malloc (bytes_452, 64);
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\common.hpp:73:32: missed: not vectorized: statement can throw an exception: _453 = _aligned_malloc (bytes_452, 64);
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\common.hpp:73:32: missed: splitting region at control altering definition _460 = _aligned_malloc (bytes_452, 64);
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\common.hpp:73:32: missed: not vectorized: statement can throw an exception: _460 = _aligned_malloc (bytes_452, 64);
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\common.hpp:73:32: missed: splitting region at control altering definition _508 = operator new (88);
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\exp8_negative_novec.cpp:52:20: missed: statement clobbers memory: bench::fill_random<float> (_460, _13, 62);
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\exp8_negative_novec.cpp:52:43: missed: statement clobbers memory: bench::fill_random<float> (_453, _13, 63);
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:162:68: missed: not vectorized: statement can throw an exception: _508 = operator new (88);
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:162:68: missed: splitting region at control altering definition _520 = black_box (_518);
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\common.hpp:103:33: missed: statement clobbers memory: t0 = std::chrono::_V2::steady_clock::now ();
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\exp8_negative_novec.cpp:23:52: missed: not vectorized: statement can throw an exception: _520 = black_box (_518);
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\exp8_negative_novec.cpp:23:52: missed: splitting region at dominance boundary bb103
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\exp8_negative_novec.cpp:23:26: missed: splitting region at loop 14 exit at bb105
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\common.hpp:104:31: missed: splitting region at loop 13 exit at bb108
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\common.hpp:25:52: missed: statement clobbers memory: D.168458 = std::chrono::_V2::steady_clock::now ();
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\common.hpp:107:19: missed: splitting region at loop 12 exit at bb235
+C:/msys64/mingw64/include/c++/16.2.0/bits/vector.tcc:127:21: missed: not vectorized: statement can throw an exception: std::vector<double>::_M_realloc_append<double> (&s1, &D.168455);
+C:/msys64/mingw64/include/c++/16.2.0/bits/vector.tcc:127:21: missed: not vectorized: vectorization is not profitable.
+C:/msys64/mingw64/include/c++/16.2.0/bits/vector.tcc:127:21: missed: not vectorized: vectorization is not profitable.
+C:/msys64/mingw64/include/c++/16.2.0/bits/vector.tcc:127:21: missed: not vectorized: vectorization is not profitable.
+C:/msys64/mingw64/include/c++/16.2.0/bits/vector.tcc:127:21: missed: splitting region at control altering definition _543 = std::basic_ostream<char>::_M_insert<long long unsigned int> (&csv.f_.D.153039, _13);
+C:/msys64/mingw64/include/c++/16.2.0/bits/ostream.h:739:18: missed: not vectorized: statement can throw an exception: std::__ostream_insert<char, std::char_traits<char> > (&csv.f_.D.153039, "via_call", 8);
+C:/msys64/mingw64/include/c++/16.2.0/bits/ostream.h:739:18: missed: not vectorized: statement can throw an exception: std::__ostream_insert<char, std::char_traits<char> > (&csv.f_.D.153039, ",", 1);
+C:/msys64/mingw64/include/c++/16.2.0/bits/ostream.h:739:18: missed: not vectorized: statement can throw an exception: std::__ostream_insert<char, std::char_traits<char> > (&csv.f_.D.153039, "unknown", 7);
+C:/msys64/mingw64/include/c++/16.2.0/bits/ostream.h:739:18: missed: not vectorized: statement can throw an exception: std::__ostream_insert<char, std::char_traits<char> > (&csv.f_.D.153039, ",", 1);
+C:/msys64/mingw64/include/c++/16.2.0/bits/ostream.h:216:25: missed: not vectorized: statement can throw an exception: _543 = std::basic_ostream<char>::_M_insert<long long unsigned int> (&csv.f_.D.153039, _13);
+C:/msys64/mingw64/include/c++/16.2.0/bits/ostream.h:216:25: missed: splitting region at control altering definition _549 = std::basic_ostream<char>::operator<< (&csv.f_.D.153039, r_685);
+C:/msys64/mingw64/include/c++/16.2.0/bits/ostream.h:739:18: missed: not vectorized: statement can throw an exception: std::__ostream_insert<char, std::char_traits<char> > (_543, ",", 1);
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\common.hpp:126:53: missed: not vectorized: statement can throw an exception: _549 = std::basic_ostream<char>::operator<< (&csv.f_.D.153039, r_685);
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\common.hpp:126:53: missed: splitting region at control altering definition _555 = std::basic_ostream<char>::_M_insert<double> (&csv.f_.D.153039, _550);
+C:/msys64/mingw64/include/c++/16.2.0/bits/ostream.h:739:18: missed: not vectorized: statement can throw an exception: std::__ostream_insert<char, std::char_traits<char> > (_549, ",", 1);
+C:/msys64/mingw64/include/c++/16.2.0/bits/ostream.h:232:25: missed: not vectorized: statement can throw an exception: _555 = std::basic_ostream<char>::_M_insert<double> (&csv.f_.D.153039, _550);
+C:/msys64/mingw64/include/c++/16.2.0/bits/ostream.h:232:25: missed: splitting region at loop 4 exit at bb143
+C:/msys64/mingw64/include/c++/16.2.0/bits/ostream.h:739:18: missed: not vectorized: statement can throw an exception: std::__ostream_insert<char, std::char_traits<char> > (_555, ",", 1);
+C:/msys64/mingw64/include/c++/16.2.0/bits/ostream.h:232:25: missed: not vectorized: statement can throw an exception: std::basic_ostream<char>::_M_insert<double> (&csv.f_.D.153039, _21);
+C:/msys64/mingw64/include/c++/16.2.0/bits/ostream.h:739:18: missed: not vectorized: statement can throw an exception: std::__ostream_insert<char, std::char_traits<char> > (&csv.f_.D.153039, "\n", 1);
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\exp8_negative_novec.cpp:55:27: missed: splitting region at control altering definition _619 = operator new (88);
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:162:68: missed: not vectorized: statement can throw an exception: _619 = operator new (88);
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:162:68: missed: splitting region at control altering definition _641 = std::basic_ostream<char>::_M_insert<long long unsigned int> (&csv.f_.D.153039, _13);
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\common.hpp:103:33: missed: statement clobbers memory: t0 = std::chrono::_V2::steady_clock::now ();
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\common.hpp:25:52: missed: statement clobbers memory: D.168552 = std::chrono::_V2::steady_clock::now ();
+C:/msys64/mingw64/include/c++/16.2.0/bits/vector.tcc:127:21: missed: not vectorized: statement can throw an exception: std::vector<double>::_M_realloc_append<double> (&s2, &D.168549);
+C:/msys64/mingw64/include/c++/16.2.0/bits/ostream.h:739:18: missed: not vectorized: statement can throw an exception: std::__ostream_insert<char, std::char_traits<char> > (&csv.f_.D.153039, "inlined", 7);
+C:/msys64/mingw64/include/c++/16.2.0/bits/ostream.h:739:18: missed: not vectorized: statement can throw an exception: std::__ostream_insert<char, std::char_traits<char> > (&csv.f_.D.153039, ",", 1);
+C:/msys64/mingw64/include/c++/16.2.0/bits/ostream.h:739:18: missed: not vectorized: statement can throw an exception: std::__ostream_insert<char, std::char_traits<char> > (&csv.f_.D.153039, "unknown", 7);
+C:/msys64/mingw64/include/c++/16.2.0/bits/ostream.h:739:18: missed: not vectorized: statement can throw an exception: std::__ostream_insert<char, std::char_traits<char> > (&csv.f_.D.153039, ",", 1);
+C:/msys64/mingw64/include/c++/16.2.0/bits/ostream.h:216:25: missed: not vectorized: statement can throw an exception: _641 = std::basic_ostream<char>::_M_insert<long long unsigned int> (&csv.f_.D.153039, _13);
+C:/msys64/mingw64/include/c++/16.2.0/bits/vector.tcc:127:21: missed: not vectorized: vectorization is not profitable.
+C:/msys64/mingw64/include/c++/16.2.0/bits/vector.tcc:127:21: missed: not vectorized: vectorization is not profitable.
+C:/msys64/mingw64/include/c++/16.2.0/bits/vector.tcc:127:21: missed: not vectorized: vectorization is not profitable.
+C:/msys64/mingw64/include/c++/16.2.0/bits/vector.tcc:127:21: missed: splitting region at control altering definition _647 = std::basic_ostream<char>::operator<< (&csv.f_.D.153039, r_662);
+C:/msys64/mingw64/include/c++/16.2.0/bits/ostream.h:739:18: missed: not vectorized: statement can throw an exception: std::__ostream_insert<char, std::char_traits<char> > (_641, ",", 1);
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\common.hpp:126:53: missed: not vectorized: statement can throw an exception: _647 = std::basic_ostream<char>::operator<< (&csv.f_.D.153039, r_662);
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\common.hpp:126:53: missed: splitting region at control altering definition _653 = std::basic_ostream<char>::_M_insert<double> (&csv.f_.D.153039, _648);
+C:/msys64/mingw64/include/c++/16.2.0/bits/ostream.h:739:18: missed: not vectorized: statement can throw an exception: std::__ostream_insert<char, std::char_traits<char> > (_647, ",", 1);
+C:/msys64/mingw64/include/c++/16.2.0/bits/ostream.h:232:25: missed: not vectorized: statement can throw an exception: _653 = std::basic_ostream<char>::_M_insert<double> (&csv.f_.D.153039, _648);
+C:/msys64/mingw64/include/c++/16.2.0/bits/ostream.h:232:25: missed: splitting region at loop 5 exit at bb188
+C:/msys64/mingw64/include/c++/16.2.0/bits/ostream.h:739:18: missed: not vectorized: statement can throw an exception: std::__ostream_insert<char, std::char_traits<char> > (_653, ",", 1);
+C:/msys64/mingw64/include/c++/16.2.0/bits/ostream.h:232:25: missed: not vectorized: statement can throw an exception: std::basic_ostream<char>::_M_insert<double> (&csv.f_.D.153039, _27);
+C:/msys64/mingw64/include/c++/16.2.0/bits/ostream.h:739:18: missed: not vectorized: statement can throw an exception: std::__ostream_insert<char, std::char_traits<char> > (&csv.f_.D.153039, "\n", 1);
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\exp8_negative_novec.cpp:57:27: missed: splitting region at dominance boundary bb87
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\common.hpp:78:52: missed: not vectorized: statement can throw an exception: _aligned_free (_453);
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\common.hpp:78:52: missed: not vectorized: statement can throw an exception: _aligned_free (_460);
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:183:59: missed: statement clobbers memory: operator delete (s2$_M_start_568, _206);
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:183:59: missed: statement clobbers memory: operator delete (s1$_M_start_140, _202);
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\exp8_negative_novec.cpp:48:21: missed: splitting region at dominance boundary bb92
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\exp8_negative_novec.cpp:48:21: missed: splitting region at dominance boundary bb97
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\exp8_negative_novec.cpp:48:21: missed: splitting region at dominance boundary bb101
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\exp8_negative_novec.cpp:48:21: missed: splitting region at dominance boundary bb114
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\exp8_negative_novec.cpp:48:21: missed: splitting region at dominance boundary bb115
+C:/msys64/mingw64/include/c++/16.2.0/bits/vector.tcc:127:21: missed: splitting region at dominance boundary bb221
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:183:59: missed: statement clobbers memory: operator delete (s1$_M_start_588, _482);
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\exp8_negative_novec.cpp:29:5: missed: not vectorized: statement can throw an exception: resx 75
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:183:59: missed: splitting region at dominance boundary bb121
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:183:59: missed: splitting region at dominance boundary bb123
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:183:59: missed: splitting region at dominance boundary bb125
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:183:59: missed: splitting region at dominance boundary bb127
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:183:59: missed: splitting region at dominance boundary bb129
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:183:59: missed: splitting region at dominance boundary bb131
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:183:59: missed: splitting region at dominance boundary bb133
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:183:59: missed: splitting region at dominance boundary bb135
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:183:59: missed: splitting region at dominance boundary bb137
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:183:59: missed: splitting region at dominance boundary bb139
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:183:59: missed: splitting region at dominance boundary bb141
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:183:59: missed: splitting region at dominance boundary bb144
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:183:59: missed: splitting region at dominance boundary bb159
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:183:59: missed: splitting region at dominance boundary bb160
+C:/msys64/mingw64/include/c++/16.2.0/bits/vector.tcc:127:21: missed: splitting region at dominance boundary bb216
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:183:59: missed: statement clobbers memory: operator delete (s2$_M_start_875, _593);
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\exp8_negative_novec.cpp:29:5: missed: not vectorized: statement can throw an exception: resx 76
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:183:59: missed: splitting region at dominance boundary bb166
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:183:59: missed: splitting region at dominance boundary bb168
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:183:59: missed: splitting region at dominance boundary bb170
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:183:59: missed: splitting region at dominance boundary bb172
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:183:59: missed: splitting region at dominance boundary bb174
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:183:59: missed: splitting region at dominance boundary bb176
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:183:59: missed: splitting region at dominance boundary bb178
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:183:59: missed: splitting region at dominance boundary bb180
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:183:59: missed: splitting region at dominance boundary bb182
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:183:59: missed: splitting region at dominance boundary bb184
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:183:59: missed: splitting region at dominance boundary bb186
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:183:59: missed: splitting region at dominance boundary bb189
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:183:59: missed: splitting region at dominance boundary bb191
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:183:59: missed: splitting region at dominance boundary bb217
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:183:59: missed: splitting region at dominance boundary bb222
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:183:59: missed: statement clobbers memory: operator delete (s2$_M_start_494, _225);
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\exp8_negative_novec.cpp:29:5: missed: not vectorized: statement can throw an exception: resx 55
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:183:59: missed: splitting region at dominance boundary bb197
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:183:59: missed: statement clobbers memory: operator delete (s1$_M_start_348, _229);
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\exp8_negative_novec.cpp:29:5: missed: not vectorized: statement can throw an exception: resx 48
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:183:59: missed: splitting region at dominance boundary bb94
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\exp8_negative_novec.cpp:60:69: missed: not vectorized: statement can throw an exception: std::operator<< <std::char_traits<char> > (&cerr, "done: negative example (opaque call) [unknown]\n");
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:183:59: missed: statement clobbers memory: operator delete (sizes$_M_start_796, _209);
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\common.hpp:114:7: missed: statement clobbers memory: std::basic_ofstream<char>::~basic_ofstream (&csv.f_);
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\common.hpp:114:7: missed: splitting region at dominance boundary bb89
+C:/msys64/mingw64/include/c++/16.2.0/bits/ostream.h:739:18: missed: not vectorized: statement can throw an exception: std::__ostream_insert<char, std::char_traits<char> > (&cerr, "allocation failed\n", 18);
+C:/msys64/mingw64/include/c++/16.2.0/bits/ostream.h:739:18: missed: splitting region at dominance boundary bb227
+C:/msys64/mingw64/include/c++/16.2.0/bits/ostream.h:739:18: missed: not vectorized: statement can throw an exception: std::__ostream_insert<char, std::char_traits<char> > (&cerr, "allocation failed\n", 18);
+C:/msys64/mingw64/include/c++/16.2.0/bits/ostream.h:739:18: missed: splitting region at dominance boundary bb54
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:183:59: missed: statement clobbers memory: operator delete (sizes$_M_start_660, _233);
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\exp8_negative_novec.cpp:29:5: missed: not vectorized: statement can throw an exception: resx 41
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\common.hpp:114:7: missed: statement clobbers memory: std::basic_ofstream<char>::~basic_ofstream (&csv.f_);
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\common.hpp:114:7: missed: splitting region at control altering definition _389 = std::__ostream_insert<char, std::char_traits<char> > (&cerr, _388, _387);
+C:/msys64/mingw64/include/c++/16.2.0/bits/ostream.h:739:18: missed: not vectorized: statement can throw an exception: std::__ostream_insert<char, std::char_traits<char> > (&cerr, "cannot open ", 12);
+C:/msys64/mingw64/include/c++/16.2.0/bits/basic_string.h:4427:30: missed: not vectorized: statement can throw an exception: _389 = std::__ostream_insert<char, std::char_traits<char> > (&cerr, _388, _387);
+C:/msys64/mingw64/include/c++/16.2.0/bits/basic_string.h:4427:30: missed: splitting region at dominance boundary bb60
+C:/msys64/mingw64/include/c++/16.2.0/bits/basic_string.h:4427:30: missed: splitting region at dominance boundary bb69
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\common.hpp:118:59: missed: not vectorized: statement can throw an exception: std::operator<< <std::char_traits<char> > (_389, "\n");
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\common.hpp:118:59: missed: splitting region at dominance boundary bb212
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\common.hpp:120:5: missed: statement clobbers memory: std::basic_ofstream<char>::~basic_ofstream (&csv.f_);
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\exp8_negative_novec.cpp:29:5: missed: not vectorized: statement can throw an exception: resx 71
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\common.hpp:120:5: missed: splitting region at dominance boundary bb62
+C:/msys64/mingw64/include/c++/16.2.0/bits/basic_string.h:920:19: missed: statement clobbers memory: std::__cxx11::basic_string<char>::_M_dispose (&D.155975);
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\exp8_negative_novec.cpp:29:5: missed: not vectorized: statement can throw an exception: resx 31
+C:/msys64/mingw64/include/c++/16.2.0/bits/basic_string.h:920:23: missed: splitting region at dominance boundary bb57
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\common.hpp:118:74: missed: statement clobbers memory: exit (1);
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\common.hpp:118:74: missed: splitting region at dominance boundary bb214
+C:/msys64/mingw64/include/c++/16.2.0/bits/basic_string.h:1191:25: missed: splitting region at dominance boundary bb215
+C:/msys64/mingw64/include/c++/16.2.0/bits/basic_string.h:1191:25: missed: splitting region at dominance boundary bb23
+C:/msys64/mingw64/include/c++/16.2.0/bits/basic_string.h:920:19: missed: statement clobbers memory: std::__cxx11::basic_string<char>::_M_dispose (&D.155977);
+C:/msys64/mingw64/include/c++/16.2.0/bits/basic_string.h:920:23: missed: splitting region at dominance boundary bb204
+C:/msys64/mingw64/include/c++/16.2.0/bits/ostream.h:739:18: missed: not vectorized: statement can throw an exception: std::__ostream_insert<char, std::char_traits<char> > (&cerr, "VALIDATION FAILED\n", 18);
+C:/msys64/mingw64/include/c++/16.2.0/bits/ostream.h:739:18: missed: splitting region at dominance boundary bb207
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:183:59: missed: statement clobbers memory: operator delete (_605, _634);
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\exp8_negative_novec.cpp:29:5: missed: not vectorized: statement can throw an exception: resx 18
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:183:59: missed: splitting region at dominance boundary bb210
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:183:59: missed: statement clobbers memory: operator delete (_725, _498);
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\exp8_negative_novec.cpp:29:5: missed: not vectorized: statement can throw an exception: resx 13
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:183:59: missed: splitting region at dominance boundary bb25
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:183:59: missed: statement clobbers memory: operator delete (_723, _500);
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:183:59: missed: splitting region at dominance boundary bb3
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:183:59: missed: statement clobbers memory: operator delete (_457, _878);
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:183:59: missed: statement clobbers memory: operator delete (_294, _878);
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:183:59: missed: statement clobbers memory: operator delete (_890, _878);
+C:/msys64/mingw64/include/c++/16.2.0/bits/new_allocator.h:183:59: missed: splitting region at dominance boundary bb202
+C:/msys64/mingw64/include/c++/16.2.0/bits/ostream.h:739:18: missed: statement clobbers memory: std::__ostream_insert<char, std::char_traits<char> > (&cerr, "usage: ", 7);
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\exp8_negative_novec.cpp:30:59: missed: statement clobbers memory: _161 = std::operator<< <std::char_traits<char> > (&cerr, _1);
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\exp8_negative_novec.cpp:30:59: missed: statement clobbers memory: std::operator<< <std::char_traits<char> > (_161, " <output_csv>\n");

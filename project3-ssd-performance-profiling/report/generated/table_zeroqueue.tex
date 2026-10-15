@@ -1,0 +1,11 @@
+\begin{tabular}{lrrrrrrrr}
+\toprule
+QD=1 workload & IOPS & MB/s & mean & p50 & p95 & p99 & p99.9 & C++ ref p50 / p99 \\
+ & & & \multicolumn{4}{c}{FIO latency ($\mu$s)} & & ($\mu$s) \\
+\midrule
+4 KiB random read & 10,604 & 43.4 & 94 & 92 & 114 & 127 & 198 & 92 / 106 \\
+4 KiB random write & 25,598 & 104.9 & 39 & 36 & 58 & 153 & 167 & 33 / 152 \\
+128 KiB seq read & 1,340 & 175.7 & 746 & 733 & 889 & 979 & 1106 & 709 / 976 \\
+128 KiB seq write & 3,283 & 430.3 & 302 & 285 & 371 & 395 & 485 & 274 / 396 \\
+\bottomrule
+\end{tabular}

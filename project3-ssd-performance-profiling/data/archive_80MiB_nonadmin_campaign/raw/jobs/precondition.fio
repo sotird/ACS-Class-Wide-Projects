@@ -1,0 +1,15 @@
+; sequential preconditioning: write the WHOLE 80 MiB file twice with random incompressible data
+[global]
+ioengine=windowsaio
+thread
+direct=1
+filename=T\:\ssdbench\fio.dat
+size=80m
+refill_buffers
+buffer_compress_percentage=0
+group_reporting
+[precondition]
+rw=write
+bs=1m
+iodepth=8
+loops=2

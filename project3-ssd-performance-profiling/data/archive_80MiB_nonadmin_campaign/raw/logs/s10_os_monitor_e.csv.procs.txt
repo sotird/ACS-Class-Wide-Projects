@@ -1,0 +1,37 @@
+1.4s: nordvpn-service=1,272, nordsec-threatprotection-service=245
+12.7s: nordvpn-service=1,090, nordsec-threatprotection-service=202, claude=85
+23.9s: nordvpn-service=1,067, nordsec-threatprotection-service=213, claude=45
+35.1s: nordvpn-service=1,066, nordsec-threatprotection-service=197, nordvpn=41
+46.3s: nordvpn-service=1,028, nordsec-threatprotection-service=205, nordvpn=28
+57.5s: nordvpn-service=1,065, nordsec-threatprotection-service=208, discord=27
+68.7s: nordvpn-service=979, nordsec-threatprotection-service=212, svchost=33
+79.9s: nordvpn-service=978, nordsec-threatprotection-service=196
+91.1s: nordvpn-service=948, nordsec-threatprotection-service=208, nordvpn=41
+102.3s: nordvpn-service=1,071, nordsec-threatprotection-service=215
+113.5s: nordvpn-service=1,065, nordsec-threatprotection-service=212
+124.7s: nordvpn-service=1,066, nordsec-threatprotection-service=197, discord=26
+135.9s: nordvpn-service=964, nordsec-threatprotection-service=203, claude=101
+147.1s: nordvpn-service=1,065, nordsec-threatprotection-service=214
+158.3s: nordvpn-service=1,037, nordsec-threatprotection-service=201, claude=49
+169.5s: nordvpn-service=1,038, nordsec-threatprotection-service=197, nordvpn=22
+180.7s: nordvpn-service=1,037, nordsec-threatprotection-service=203, nordvpn=41
+191.9s: nordvpn-service=1,041, nordsec-threatprotection-service=197, claude=56
+203s: nordvpn-service=1,097, nordsec-threatprotection-service=203
+214.2s: nordvpn-service=1,025, nordsec-threatprotection-service=194, claude=36
+225.5s: nordvpn-service=1,011, nordsec-threatprotection-service=197, claude=89
+236.7s: nordvpn-service=1,007, nordsec-threatprotection-service=206, claude=91
+247.9s: nordvpn-service=953, nordsec-threatprotection-service=197, claude=90
+259.1s: nordvpn-service=1,054, nordsec-threatprotection-service=210, claude=88
+270.3s: nordvpn-service=1,082, nordsec-threatprotection-service=218, claude=91
+281.5s: nordsec-threatprotection-service=1,951, nordvpn-service=1,083, claude=85
+292.7s: nordvpn-service=979, nordsec-threatprotection-service=197, claude=89
+303.9s: nordvpn-service=1,035, nordsec-threatprotection-service=200, claude=89
+315.1s: nordvpn-service=1,093, nordsec-threatprotection-service=196, nordvpn=41
+326.3s: nordvpn-service=1,105, nordsec-threatprotection-service=203
+337.5s: nordvpn-service=1,063, nordsec-threatprotection-service=202
+348.7s: nordvpn-service=1,034, nordsec-threatprotection-service=212
+359.9s: nordvpn-service=1,066, nordsec-threatprotection-service=197
+371.1s: nordvpn-service=1,497, nordsec-threatprotection-service=304
+382.3s: nordvpn-service=1,608, nordsec-threatprotection-service=320
+393.4s: nordvpn-service=1,669, nordsec-threatprotection-service=343
+404.6s: nordvpn-service=1,556, nordsec-threatprotection-service=310

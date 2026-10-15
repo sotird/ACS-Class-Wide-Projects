@@ -1,0 +1,3 @@
+ghz_median=5.6400
+ghz_min=5.5170
+ghz_max=5.6450

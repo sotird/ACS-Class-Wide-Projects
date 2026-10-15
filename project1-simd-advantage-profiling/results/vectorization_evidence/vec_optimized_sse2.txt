@@ -1,0 +1,12 @@
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\kernels.hpp:16:26: optimized: loop vectorized using 16 byte vectors and unroll factor 4
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\kernels.hpp:16:26: optimized: epilogue loop vectorized using 8 byte vectors and unroll factor 2
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\kernels.hpp:16:26: optimized: loop vectorized using 16 byte vectors and unroll factor 2
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\kernels.hpp:16:26: optimized: loop vectorized using 16 byte vectors and unroll factor 4
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\kernels.hpp:25:26: optimized: loop vectorized using 16 byte vectors and unroll factor 4
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\kernels.hpp:25:26: optimized: loop vectorized using 16 byte vectors and unroll factor 4
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\kernels.hpp:32:26: optimized: loop vectorized using 16 byte vectors and unroll factor 4
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\kernels.hpp:32:26: optimized: epilogue loop vectorized using 8 byte vectors and unroll factor 2
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\kernels.hpp:38:30: optimized: loop vectorized using 16 byte vectors and unroll factor 4
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\kernels.hpp:38:30: optimized: epilogue loop vectorized using 8 byte vectors and unroll factor 2
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\kernels.hpp:45:26: optimized: loop vectorized using 16 byte vectors and unroll factor 4
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\kernels.hpp:45:26: optimized: loop vectorized using 16 byte vectors and unroll factor 4

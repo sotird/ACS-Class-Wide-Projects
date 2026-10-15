@@ -1,0 +1,11 @@
+\begin{tabular}{lrrrrrrrr}
+\toprule
+state & \multicolumn{4}{c}{4 KiB random write, QD=1 ($\mu$s)} & \multicolumn{3}{c}{4 KiB random read, QD=1 ($\mu$s)} \\
+ & p50 & p99 & p99.9 & max (ms) & p50 & p99 & p99.9 \\
+\midrule
+fresh (before any heavy write) & 36 & 155 & 167 & 31 & 92 & 111 & 136 \\
+after 900 s sequential writes & 36 & 153 & 167 & 29 & 92 & 122 & 142 \\
+after 600 s random writes & 36 & 155 & 167 & 31 & 92 & 111 & 134 \\
+after a further 300 s idle & 36 & 157 & 171 & 30 & 92 & 125 & 202 \\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,15 @@
+\begin{tabular}{lrrrrr}
+\toprule
+C++ reference (QD=1, synchronous) & ops/s & mean $\mu$s & p50 & p99 & p99.9 \\
+\midrule
+randread4k\_buffered & 13,803 & 72.4 & 92.2 & 121.2 & 168.7 \\
+randread4k\_direct & 10,926 & 91.5 & 91.6 & 106.0 & 173.7 \\
+randwrite4k\_buffered & 301,113 & 3.3 & 2.7 & 9.2 & 12.5 \\
+randwrite4k\_direct & 28,194 & 35.4 & 33.2 & 152.5 & 165.8 \\
+randwrite4k\_wt & 28,274 & 35.3 & 33.2 & 152.2 & 166.0 \\
+seqread128k\_direct & 1,382 & 723.3 & 709.1 & 975.6 & 1163.4 \\
+seqwrite128k\_direct & 3,412 & 293.1 & 273.8 & 396.3 & 426.2 \\
+vdl\_unwritten\_file & 730,564 & 1.3 & 1.3 & 1.5 & 2.0 \\
+vdl\_written\_file & 10,411 & 96.0 & 91.7 & 141.0 & 1339.5 \\
+\bottomrule
+\end{tabular}

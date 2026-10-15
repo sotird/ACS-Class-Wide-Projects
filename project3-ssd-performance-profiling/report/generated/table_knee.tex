@@ -1,0 +1,11 @@
+\begin{tabular}{lrrrrrrrr}
+\toprule
+workload & QD1 IOPS & max IOPS & MB/s at max & $N^{*}=L_1 X_{\max}$ & QD for 90\% & mean latency there & QD for 98\% & latency $\times$ at top QD \\
+\midrule
+random 4K read & 10,604 & 99,543 & 408 & 9.4 & 32 & 320 $\mu$s & 32 & 27$\times$ (QD 256) \\
+random 4K write & 25,598 & 85,304 & 349 & 3.3 & 8 & 96 $\mu$s & 16 & 81$\times$ (QD 256) \\
+random 4K 70/30 mix & 12,816 & 37,982 & 156 & 3.0 & 8 & 218 $\mu$s & 16 & 98$\times$ (QD 256) \\
+seq 128K read & 1,340 & 2,951 & 387 & 2.2 & 4 & 1355 $\mu$s & 4 & 29$\times$ (QD 64) \\
+seq 128K write & 3,283 & 3,856 & 507 & 1.2 & 2 & 538 $\mu$s & 4 & 55$\times$ (QD 64) \\
+\bottomrule
+\end{tabular}

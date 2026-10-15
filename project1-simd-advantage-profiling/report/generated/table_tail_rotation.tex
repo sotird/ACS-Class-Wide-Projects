@@ -1,0 +1,16 @@
+\begin{tabular}{rrrrrr}
+\toprule
+$n$ & remainder (lanes) & same $y$ every call (ns) & 64 rotating $y$ buffers (ns) & cycles, rotating & rotating, minus the multiple of 16 below \\
+\midrule
+8 & 8 & 2.32 & 1.27 & 7.1 & -- \\
+15 & 15 & 2.37 & 1.48 & 8.3 & +0.21 ns \\
+16 & 0 & 2.68 & 1.26 & 7.1 & -- \\
+17 & 1 & 2.70 & 1.29 & 7.2 & +0.03 ns \\
+31 & 15 & 2.73 & 1.74 & 9.7 & +0.47 ns \\
+32 & 0 & 2.70 & 1.28 & 7.2 & -- \\
+33 & 1 & 2.71 & 1.32 & 7.4 & +0.04 ns \\
+47 & 15 & 2.77 & 1.98 & 11.1 & +0.70 ns \\
+48 & 0 & 2.72 & 1.30 & 7.3 & -- \\
+49 & 1 & 2.74 & 1.51 & 8.4 & +0.20 ns \\
+\bottomrule
+\end{tabular}

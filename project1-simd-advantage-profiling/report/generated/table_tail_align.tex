@@ -1,0 +1,10 @@
+\begin{tabular}{lrrrrrr}
+\toprule
+build & $t(16)$ ns & $t(15)$ ns & $t(17)$ ns & $t(128)$ ns & $t(127)$ ns & misaligned penalty (L1) \\
+\midrule
+scalar & 3.96 & 3.82 & 4.09 & 24.57 & 28.09 & 0\% \\
+SSE2 (128b) & 2.19 & 2.21 & 2.21 & 6.40 & 6.51 & 12\% \\
+AVX2 (256b) & 2.33 & 2.37 & 2.34 & 3.16 & 3.77 & 26\% \\
+AVX-512 (512b) & 0.72 & 2.38 & 2.70 & 2.82 & 3.23 & 32\% \\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,11 @@
+# saxpy<float>, SSE2 build (g++ -O3 -march=x86-64), main vector loop only (4 floats per iteration = 8 instructions = 2.0 per element)
+# separate mulps + addps (no FMA on this target), two movups loads, one movups store, 3 instructions of loop control
+.L4:
+	movups	(%rdx,%rax), %xmm0
+	movups	(%rcx,%rax), %xmm4
+	mulps	%xmm1, %xmm0
+	addps	%xmm4, %xmm0
+	movups	%xmm0, (%rcx,%rax)
+	addq	$16, %rax
+	cmpq	%r10, %rax
+	jne	.L4

@@ -1,0 +1,12 @@
+\begin{tabular}{lrr}
+\toprule
+term of the model $t = t_0 + \sum_i n_i c_i$ & fitted $c_i$ (ns) & cycles at 5.64\,GHz \\
+\midrule
+base: L1 hit (load-to-use) & 0.71 & 4 \\
+extra per L1D fill from L2 & 1.80 & 10 \\
+extra per L1D fill from L3 & 8.66 & 49 \\
+extra per L1D fill from DRAM & 78.32 & 442 \\
+extra per DTLB miss & 1.37 & 8 \\
+\bottomrule
+\multicolumn{3}{l}{\footnotesize weighted least squares over 25 configurations: median error 1\%, maximum 22\%, $R^2$ (log scale) $=0.998$}\\
+\end{tabular}

@@ -1,0 +1,14 @@
+﻿mul_strided_c<float,4>
+symbol: _ZN7kernels13mul_strided_cIfLy4EEEvPT_PKS1_S4_y
+(only lines matching /vgather|vperm|vshuf|vpermt2ps|vpermi2ps|vmulps|zmm/; full dump omitted)
+
+140002198:	62 f1 7e 48 6f 0d 1e 	vmovdqu32 zmm1,ZMMWORD PTR [rip+0x1f1e]        # 1400040c0 <.rdata+0x80>
+1400021c0:	62 f1 7c 48 10 04 82 	vmovups zmm0,ZMMWORD PTR [rdx+rax*4]
+1400021c7:	62 f1 7c 48 10 54 82 	vmovups zmm2,ZMMWORD PTR [rdx+rax*4+0x80]
+1400021cf:	62 d1 7c 48 10 5c 80 	vmovups zmm3,ZMMWORD PTR [r8+rax*4+0x80]
+1400021d7:	62 f2 75 48 7f 54 82 	vpermt2ps zmm2,zmm1,ZMMWORD PTR [rdx+rax*4+0xc0]
+1400021df:	62 f2 75 48 7f 44 82 	vpermt2ps zmm0,zmm1,ZMMWORD PTR [rdx+rax*4+0x40]
+1400021e7:	62 d2 75 48 7f 5c 80 	vpermt2ps zmm3,zmm1,ZMMWORD PTR [r8+rax*4+0xc0]
+1400021ef:	62 f2 75 48 7f c2    	vpermt2ps zmm0,zmm1,zmm2
+1400021f5:	62 d1 7c 48 10 14 80 	vmovups zmm2,ZMMWORD PTR [r8+rax*4]
+1400021fc:	62 d2 75 48 7f 54 80 	vpermt2ps zmm2,zmm1,ZMMWORD PTR [r8+rax*4+0x40]

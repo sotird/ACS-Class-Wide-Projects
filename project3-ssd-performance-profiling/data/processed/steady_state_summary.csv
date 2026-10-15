@@ -1,0 +1,10 @@
+,value
+seq_burst_mbps_first30s,505.272832
+seq_last60s_mbps,505.39417599999996
+seq_min_mbps,254.664704
+seq_total_GB_written,454.273483776
+seq_drop_t_s,340.0
+rand_first30s_iops,83796.0
+rand_last60s_iops,756.0
+rand_min_iops,488.0
+rand_total_GB_written,187.58381568

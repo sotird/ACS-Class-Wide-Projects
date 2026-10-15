@@ -1,0 +1,17 @@
+\begin{tabular}{lrrr}
+\toprule
+level & triad GiB/s (12 B/elem) & read-only GiB/s & footprint band \\
+\midrule
+L1 & 616.1 & 302.5 & 6--40 KiB \\
+L2 & 432.3 & 169.2 & 100--700 KiB \\
+L3 & 213.6 & 149.6 & 2--8 MiB \\
+DRAM & 57.2 & 53.2 & $\geq$ 300 MB \\
+\midrule
+ISA & measured GFLOP/s & FLOP/cycle & lanes (f32) \\
+\midrule
+scalar\_fma & 22.3 & 4.0 & 1 \\
+sse\_fma & 88.9 & 15.9 & 4 \\
+avx2\_fma & 177.0 & 31.6 & 8 \\
+avx512\_fma & 351.7 & 62.9 & 16 \\
+\bottomrule
+\end{tabular}

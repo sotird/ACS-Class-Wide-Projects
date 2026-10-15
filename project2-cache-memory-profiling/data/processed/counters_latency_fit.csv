@@ -1,0 +1,6 @@
+term,ns
+base: L1 hit (load-to-use),0.7068782160514767
+extra per L1D fill from L2,1.7968187287998885
+extra per L1D fill from L3,8.66409238837745
+extra per L1D fill from DRAM,78.32384020964426
+extra per DTLB miss,1.3667969852688855

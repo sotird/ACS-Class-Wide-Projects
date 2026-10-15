@@ -1,0 +1,17 @@
+triad_bw_gibs_L1=616.07
+triad_bw_gibs_L2=432.31
+triad_bw_gibs_L3=213.64
+triad_bw_gibs_DRAM=57.18
+read_bw_gibs_L1=302.55
+read_bw_gibs_L2=169.16
+read_bw_gibs_L3=149.57
+read_bw_gibs_DRAM=53.21
+peak_gflops_avx2_fma=177.00
+flops_per_cycle_avx2_fma=31.60
+peak_gflops_avx512_fma=351.68
+flops_per_cycle_avx512_fma=62.86
+peak_gflops_scalar_fma=22.25
+flops_per_cycle_scalar_fma=3.97
+peak_gflops_sse_fma=88.87
+flops_per_cycle_sse_fma=15.87
+ghz=5.612

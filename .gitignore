@@ -1,0 +1,22 @@
+bin/
+__pycache__/
+*.pyc
+*.exe
+*.o
+build_err.txt
+
+# LaTeX build artifacts (report.pdf itself IS tracked)
+**/report/*.aux
+**/report/*.log
+**/report/*.out
+**/report/*.fls
+**/report/*.fdb_latexmk
+**/report/*.synctex.gz
+**/report/*.toc
+
+# local backups of earlier report versions
+*.bak
+.claude/
+MEMORY.md
+AGENT.md
+QWEN.md

@@ -1,0 +1,14 @@
+\begin{tabular}{lrrrrr}
+\toprule
+random 4 KiB reads after a full rewrite of the file & fast rate (k IOPS) & run length (s) & first stall (s) & reads before it (M) & rate after it (k IOPS) \\
+\midrule
+16 MiB, QD32 & 99.5 & 240 & 174 & 17.3 & 66.9 \\
+64 MiB, QD32 & 99.6 & 240 & 175 & 17.4 & 65.0 \\
+256 MiB, QD32 & 99.6 & 240 & 175 & 17.4 & 64.4 \\
+1024 MiB, QD32 & 99.6 & 240 & none & (23.7 in total) & -- \\
+1024 MiB, QD4 & 36.7 & 600 & none & (22.0 in total) & -- \\
+16 MiB, QD32, 600 s rest (120 s run) & 99.6 & 120 & none & (11.8 in total) & -- \\
+16 MiB, QD4 & 37.3 & 600 & 420 & 15.7 & 23.4 \\
+16 MiB, QD32, 600 s rest (300 s run) & 99.6 & 300 & 174 & 17.2 & 66.6 \\
+\bottomrule
+\end{tabular}

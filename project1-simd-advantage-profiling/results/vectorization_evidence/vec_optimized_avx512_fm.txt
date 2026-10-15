@@ -1,0 +1,20 @@
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\kernels.hpp:16:26: optimized: loop vectorized using 64 byte vectors and unroll factor 16
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\kernels.hpp:16:26: optimized: epilogue loop vectorized using masked 64 byte vectors and unroll factor 16
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\kernels.hpp:16:26: optimized: loop vectorized using 64 byte vectors and unroll factor 8
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\kernels.hpp:16:26: optimized: epilogue loop vectorized using masked 64 byte vectors and unroll factor 8
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\kernels.hpp:16:26: optimized: loop vectorized using 64 byte vectors and unroll factor 16
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\kernels.hpp:16:26: optimized: epilogue loop vectorized using masked 64 byte vectors and unroll factor 16
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\kernels.hpp:25:26: optimized: loop vectorized using 64 byte vectors and unroll factor 64
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\kernels.hpp:25:26: optimized: epilogue loop vectorized using masked 64 byte vectors and unroll factor 16
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\kernels.hpp:25:26: optimized: loop vectorized using 64 byte vectors and unroll factor 16
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\kernels.hpp:25:26: optimized: epilogue loop vectorized using masked 64 byte vectors and unroll factor 16
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\kernels.hpp:32:26: optimized: loop vectorized using 64 byte vectors and unroll factor 16
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\kernels.hpp:32:26: optimized: epilogue loop vectorized using masked 64 byte vectors and unroll factor 16
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\kernels.hpp:38:30: optimized: loop vectorized using 64 byte vectors and unroll factor 16
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\kernels.hpp:38:30: optimized: epilogue loop vectorized using masked 64 byte vectors and unroll factor 16
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\kernels.hpp:45:26: optimized: loop vectorized using 64 byte vectors and unroll factor 16
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\kernels.hpp:45:26: optimized: epilogue loop vectorized using masked 64 byte vectors and unroll factor 16
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\kernels.hpp:45:26: optimized: loop vectorized using 64 byte vectors and unroll factor 16
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\kernels.hpp:45:26: optimized: epilogue loop vectorized using masked 64 byte vectors and unroll factor 16
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\kernels.hpp:45:26: optimized: loop vectorized using 64 byte vectors and unroll factor 16
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\kernels.hpp:45:26: optimized: epilogue loop vectorized using masked 64 byte vectors and unroll factor 16

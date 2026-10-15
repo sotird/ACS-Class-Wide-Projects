@@ -1,0 +1,10 @@
+\begin{tabular}{llrrrr}
+\toprule
+workload (QD=32, write) & payload & IOPS & MB/s & mean $\mu$s & p99 $\mu$s \\
+\midrule
+4 KiB random & incompressible & 83,710 & 343 & 380 & 395 \\
+ & 90\% compressible & 83,967 & 344 & 379 & 395 \\
+128 KiB sequential & incompressible & 3,850 & 505 & 8303 & 9765 \\
+ & 90\% compressible & 3,858 & 506 & 8288 & 8290 \\
+\bottomrule
+\end{tabular}

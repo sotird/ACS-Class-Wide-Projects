@@ -1,0 +1,6 @@
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\kernels.hpp:45:26: missed: couldn't vectorize loop
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\kernels.hpp:45:44: missed: not vectorized: no vectype for stmt: _3 = *_2;
+ scalar_type: const float
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\kernels.hpp:54:26: missed: couldn't vectorize loop
+C:\Users\User\Desktop\Folders\Code\ACS\ACS-Class-Wide-Projects\project1-simd-advantage-profiling\src\kernels.hpp:54:44: missed: not vectorized: no vectype for stmt: _7 = *_6;
+ scalar_type: const float

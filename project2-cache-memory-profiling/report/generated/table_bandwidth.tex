@@ -1,0 +1,11 @@
+\begin{tabular}{lrrrrrr}
+\toprule
+ & \multicolumn{2}{c}{read (AVX-512)} & \multicolumn{2}{c}{write (AVX-512)} & \multicolumn{2}{c}{naive FP sum (pitfall)} \\
+level & GB/s & B/cycle & GB/s & B/cycle & GB/s & B/cycle \\
+\midrule
+L1 & 682.4 & 121.0 & 354.2 & 62.8 & 11.9 & 2.11 \\
+L2 & 327.5 & 58.1 & 326.0 & 57.8 & 11.1 & 1.98 \\
+L3 & 173.0 & 30.7 & 161.2 & 28.6 & 11.2 & 1.98 \\
+DRAM & 57.8 & 10.2 & 20.4 & 3.6 & 11.2 & 1.98 \\
+\bottomrule
+\end{tabular}

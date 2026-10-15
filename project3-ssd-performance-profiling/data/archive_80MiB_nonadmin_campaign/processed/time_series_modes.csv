@@ -1,0 +1,6 @@
+series,p95_ref,median,min,max,pct_time_below_75pct_of_ref,pct_time_below_25pct_of_ref
+seq 128K write QD32 (MB/s),492.5,482.3564453125,477.1015625,492.75,0.0,0.0
+rand 4K write QD32 (IOPS),85267.1,84729.5,82221.0,86006.0,0.0,0.0
+"rand 4K read QD32, run c (IOPS)",96220.5,94584.0,12.0,99538.0,36.42857142857142,8.571428571428571
+"rand 4K read QD32, run d after 300 s idle (IOPS)",96394.05,93522.0,62.0,96560.0,34.0,4.666666666666667
+"rand 4K read QD32, run e after file rewrite (IOPS)",99651.05,87237.5,86072.0,99708.0,0.0,0.0

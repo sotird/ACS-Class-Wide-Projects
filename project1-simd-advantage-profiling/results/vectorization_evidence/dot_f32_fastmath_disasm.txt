@@ -1,0 +1,16 @@
+﻿dot<float>, -ffast-math: independent vector accumulators (vfmadd231ps)
+symbol: _ZN7kernels3dotIfEET_PKS1_S3_y
+(only lines matching /vfmadd|vaddps|vmulps|zmm/; full dump omitted)
+
+140002625:	62 f1 7c 48 28 d9    	vmovaps zmm3,zmm1
+14000262b:	62 f1 7c 48 28 c1    	vmovaps zmm0,zmm1
+140002631:	62 f1 7c 48 28 d1    	vmovaps zmm2,zmm1
+140002650:	62 f1 7c 48 10 20    	vmovups zmm4,ZMMWORD PTR [rax]
+140002656:	62 f1 7c 48 10 68 01 	vmovups zmm5,ZMMWORD PTR [rax+0x40]
+14000265d:	62 f2 5d 48 b8 09    	vfmadd231ps zmm1,zmm4,ZMMWORD PTR [rcx]
+140002669:	62 f2 55 48 b8 51 01 	vfmadd231ps zmm2,zmm5,ZMMWORD PTR [rcx+0x40]
+140002670:	62 f1 7c 48 10 60 fe 	vmovups zmm4,ZMMWORD PTR [rax-0x80]
+140002677:	62 f1 7c 48 10 68 ff 	vmovups zmm5,ZMMWORD PTR [rax-0x40]
+140002685:	62 f2 5d 48 b8 41 fe 	vfmadd231ps zmm0,zmm4,ZMMWORD PTR [rcx-0x80]
+14000268c:	62 f2 55 48 b8 59 ff 	vfmadd231ps zmm3,zmm5,ZMMWORD PTR [rcx-0x40]
+140002698:	62 f1 7c 48 58 c3    	vaddps zmm0,zmm0,zmm3

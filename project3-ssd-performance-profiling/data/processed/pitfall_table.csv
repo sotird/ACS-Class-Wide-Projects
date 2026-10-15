@@ -1,0 +1,24 @@
+setup,iops,p50,p99
+"randread QD1
+direct",10823.647044,91.648,114.176
+"randread QD1 buffered
+(cache mostly cold)",12369.703787,101.888,126.464
+"randread QD1 buffered
+(cache warm)",102923.1346085,8.176,23.424
+"randread QD32
+direct",98828.39645,317.44,528.384
+"randread QD32
+buffered",233755.905512,71.168,166.912
+"sync engine
+'iodepth=32'
+(buffered)",311409.073866,2.256,9.792
+"sync engine
+32 jobs
+(buffered)",297257.185704,68.096,593.92
+"windowsaio
+32 jobs x QD1
+(direct)",98848.287928,313.344,518.144
+"randwrite QD1
+direct",26159.480065,35.584,152.576
+"randwrite QD1
+buffered",109211.098613,8.384,16.512

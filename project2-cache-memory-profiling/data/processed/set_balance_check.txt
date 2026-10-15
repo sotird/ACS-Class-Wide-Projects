@@ -1,0 +1,16 @@
+L=  8192 lines  P=  2048 slots  permuted=False  L2 sets used  256/1024  max lines in a set    32  lines beyond 16 ways   4096
+L=  8192 lines  P=  2048 slots  permuted=True   L2 sets used 1024/1024  max lines in a set    17  lines beyond 16 ways      3
+L=  8192 lines  P=  3072 slots  permuted=False  L2 sets used  192/1024  max lines in a set    48  lines beyond 16 ways   5120
+L=  8192 lines  P=  3072 slots  permuted=True   L2 sets used 1024/1024  max lines in a set    20  lines beyond 16 ways      8
+L=  8192 lines  P=  4096 slots  permuted=False  L2 sets used  128/1024  max lines in a set    64  lines beyond 16 ways   6144
+L=  8192 lines  P=  4096 slots  permuted=True   L2 sets used 1024/1024  max lines in a set    19  lines beyond 16 ways      8
+L=  8192 lines  P=  6144 slots  permuted=False  L2 sets used  128/1024  max lines in a set    96  lines beyond 16 ways   6144
+L=  8192 lines  P=  6144 slots  permuted=True   L2 sets used 1024/1024  max lines in a set    19  lines beyond 16 ways     10
+L=  8192 lines  P=  8192 slots  permuted=False  L2 sets used   64/1024  max lines in a set   128  lines beyond 16 ways   7168
+L=  8192 lines  P=  8192 slots  permuted=True   L2 sets used 1024/1024  max lines in a set    17  lines beyond 16 ways      1
+L= 65536 lines  P= 16384 slots  permuted=False  L2 sets used  256/1024  max lines in a set   256  lines beyond 16 ways  61440
+L= 65536 lines  P= 16384 slots  permuted=True   L2 sets used 1024/1024  max lines in a set    88  lines beyond 16 ways  49152
+L= 65536 lines  P= 32768 slots  permuted=False  L2 sets used  128/1024  max lines in a set   512  lines beyond 16 ways  63488
+L= 65536 lines  P= 32768 slots  permuted=True   L2 sets used 1024/1024  max lines in a set    91  lines beyond 16 ways  49152
+L= 65536 lines  P= 65536 slots  permuted=False  L2 sets used   64/1024  max lines in a set  1024  lines beyond 16 ways  64512
+L= 65536 lines  P= 65536 slots  permuted=True   L2 sets used 1024/1024  max lines in a set    93  lines beyond 16 ways  49152

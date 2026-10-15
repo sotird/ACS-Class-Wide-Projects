@@ -1,0 +1,8 @@
+[prewarm]
+filename=T\:\ssdbench\fio.dat
+ioengine=sync
+direct=0
+rw=read
+bs=1m
+size=1024m
+thread

@@ -1,0 +1,4 @@
+series,seconds,fast_median,pct_seconds_slow,first_slow_s,GB_written_before_first_slow,pct_slow_after_onset,slow_median,episodes,median_episode_s
+stage 9 d,600,84360.5,8.0,529,180.099923968,67.6056338028169,751.5,4,12.0
+stage 11 a,1199,84783.5,6.255212677231025,927,315.752726528,27.573529411764707,752.0,6,12.5
+stage 11 c,599,83712.5,11.686143572621036,293,98.531631104,22.875816993464053,753.0,6,11.5

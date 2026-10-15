@@ -1,0 +1,4 @@
+exp,label,ns,cyc,instr,fL2,fL3,fD,dtlb,reps
+E2_discipline,dependent chase,90.08289,509.34054,2.69799,0.18353,0.77327,0.99225,1.00083,1
+E2_discipline,independent random,2.23153,12.51781,3.75637,0.23468,0.76048,1.00995,1.04253,1
+E2_discipline,sequential,1.11899,6.32877,2.50305,0.01936,-1e-05,0.98294,0.0055,1

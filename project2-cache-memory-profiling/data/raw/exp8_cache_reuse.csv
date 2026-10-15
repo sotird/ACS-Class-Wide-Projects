@@ -1,0 +1,15 @@
+variant,rep,claimed_gbps,unique_bytes_gbps
+buggy_masked_to_256KiB,0,254.483,0.124261
+buggy_masked_to_256KiB,1,259.285,0.126606
+buggy_masked_to_256KiB,2,257.349,0.125661
+buggy_masked_to_256KiB,3,256.814,0.125399
+buggy_masked_to_256KiB,4,257.646,0.125805
+buggy_masked_to_256KiB,5,257.171,0.125573
+buggy_masked_to_256KiB,6,257.386,0.125679
+fixed_full_512MiB,0,51.1228,51.1236
+fixed_full_512MiB,1,55.2031,55.204
+fixed_full_512MiB,2,57.3925,57.3934
+fixed_full_512MiB,3,57.0768,57.0776
+fixed_full_512MiB,4,56.8974,56.8983
+fixed_full_512MiB,5,57.4194,57.4203
+fixed_full_512MiB,6,57.4895,57.4904

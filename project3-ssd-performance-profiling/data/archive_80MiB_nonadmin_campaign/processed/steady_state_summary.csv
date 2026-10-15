@@ -1,0 +1,8 @@
+,value
+seq_burst_mbps_first10s,482.23193359375
+seq_last30s_mbps,482.3564453125
+seq_min_mbps,477.1015625
+seq_drop_t_s,
+rand_first10s_iops,83972.5
+rand_last30s_iops,84734.0
+rand_min_iops,82221.0

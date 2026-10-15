@@ -1,0 +1,11 @@
+﻿--- via_call() loop (source line 23): calls black_box(), an opaque function in a separate TU ---
+exp8_negative_novec.cpp:23:26: missed: couldn't vectorize loop
+exp8_negative_novec.cpp:23:26: missed: not vectorized: Infinite loop detected.
+exp8_negative_novec.cpp:23:26: missed: couldn't vectorize loop
+exp8_negative_novec.cpp:23:26: missed: not vectorized: Infinite loop detected.
+exp8_negative_novec.cpp:23:52: missed: not vectorized: statement can throw an exception: _148 = black_box (_150);
+
+--- inlined() loop (source line 26): identical arithmetic written in the loop ---
+exp8_negative_novec.cpp:26:26: optimized: loop vectorized using 64 byte vectors and unroll factor 16
+exp8_negative_novec.cpp:26:26: optimized: epilogue loop vectorized using masked 64 byte vectors and unroll factor 16
+exp8_negative_novec.cpp:26:26: optimized: loop vectorized using 64 byte vectors and unroll factor 16

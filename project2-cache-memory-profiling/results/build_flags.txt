@@ -1,0 +1,10 @@
+exp1_latency_zeroqueue : C:\msys64\mingw64\bin\g++.exe -O3 -march=native -std=c++17 -static -pthread
+exp2_pattern_granularity : C:\msys64\mingw64\bin\g++.exe -O3 -march=native -std=c++17 -static -pthread
+exp3_rw_mix : C:\msys64\mingw64\bin\g++.exe -O3 -march=native -std=c++17 -static -pthread
+exp4_intensity_sweep : C:\msys64\mingw64\bin\g++.exe -O3 -march=native -std=c++17 -static -pthread
+exp5_workingset_sweep : C:\msys64\mingw64\bin\g++.exe -O3 -march=native -std=c++17 -static -pthread
+exp6_cachemiss_impact : C:\msys64\mingw64\bin\g++.exe -O3 -march=native -std=c++17 -static -pthread
+exp7_tlbmiss_impact : C:\msys64\mingw64\bin\g++.exe -O3 -march=native -std=c++17 -static -pthread
+exp8_pitfall_demo : C:\msys64\mingw64\bin\g++.exe -O3 -march=native -std=c++17 -static -pthread
+exp9_counter_target : C:\msys64\mingw64\bin\g++.exe -O3 -march=native -std=c++17 -static -pthread
+freq_calibrate : C:\msys64\mingw64\bin\g++.exe -O3 -march=native -std=c++17 -static -pthread

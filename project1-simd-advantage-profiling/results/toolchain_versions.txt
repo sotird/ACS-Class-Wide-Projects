@@ -1,0 +1,1 @@
+﻿g++.exe (Rev3, Built by MSYS2 project) 16.2.0

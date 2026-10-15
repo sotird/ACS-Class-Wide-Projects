@@ -1,0 +1,34 @@
+1.2s: nordvpn-service=1,492, nordsec-threatprotection-service=303, discord=41
+12.4s: nordvpn-service=1,661, nordsec-threatprotection-service=314, nordvpn=40
+23.6s: nordvpn-service=1,552, nordsec-threatprotection-service=303, claude=92
+34.7s: nordvpn-service=1,062, nordsec-threatprotection-service=215, claude=106
+45.8s: nordvpn-service=1,034, nordsec-threatprotection-service=214, claude=99
+57s: nordvpn-service=1,089, nordsec-threatprotection-service=208, claude=64
+68.1s: nordvpn-service=1,084, nordsec-threatprotection-service=213, claude=91
+79.3s: nordvpn-service=1,092, nordsec-threatprotection-service=208, claude=61
+90.5s: nordvpn-service=1,095, nordsec-threatprotection-service=218
+101.7s: nordvpn-service=1,061, nordsec-threatprotection-service=202, nordvpn=41
+112.9s: nordvpn-service=1,006, nordsec-threatprotection-service=202
+124.1s: nordvpn-service=1,053, nordsec-threatprotection-service=200, claude=35
+135.2s: nordvpn-service=1,006, nordsec-threatprotection-service=206
+146.4s: nordvpn-service=1,009, nordsec-threatprotection-service=196, discord=63
+157.6s: nordvpn-service=1,076, nordsec-threatprotection-service=196
+168.8s: nordvpn-service=1,039, nordsec-threatprotection-service=203, discord=26
+180s: nordvpn-service=1,038, nordsec-threatprotection-service=212
+191.2s: nordvpn-service=1,034, nordsec-threatprotection-service=196
+202.3s: nordvpn-service=1,069, nordsec-threatprotection-service=203, nordvpn=41
+213.5s: nordvpn-service=1,062, nordsec-threatprotection-service=202
+224.6s: nordvpn-service=1,006, nordsec-threatprotection-service=202
+235.7s: nordvpn-service=1,036, nordsec-threatprotection-service=203
+246.9s: nordvpn-service=1,006, nordsec-threatprotection-service=196, nordvpn=41
+258s: nordvpn-service=1,077, nordsec-threatprotection-service=214
+269.2s: nordvpn-service=1,038, nordsec-threatprotection-service=209
+280.4s: nordvpn-service=1,038, nordsec-threatprotection-service=224
+291.6s: nordvpn-service=1,035, nordsec-threatprotection-service=202, nordvpn=41
+302.8s: nordvpn-service=1,007, nordsec-threatprotection-service=202, discord=32
+314s: nordvpn-service=1,122, nordsec-threatprotection-service=214
+325.1s: nordvpn-service=1,064, nordsec-threatprotection-service=224
+336.3s: nordvpn-service=1,693, nordsec-threatprotection-service=332
+347.5s: nordvpn-service=1,165, nordsec-threatprotection-service=243, nordvpn=76
+358.6s: nordvpn-service=1,695, nordsec-threatprotection-service=333
+369.8s: nordvpn-service=1,587, nordsec-threatprotection-service=326
